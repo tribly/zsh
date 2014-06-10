@@ -7,6 +7,7 @@ BROWSER=chromium
 prompt off
 NOCOR=1
 
+# prompt colors
 p_yellow="%{$fg[yellow]%}"
 p_red="%{$fg[red]%}"
 p_green="%{$fg[green]%}"
@@ -24,6 +25,8 @@ zstyle ':completion:*'                  matcher-list 'm:{a-z}!={A-Z}'
 # ls stuff
 alias ls='ls -v --color=auto'
 alias lh='ls -lh'
+
+# cd stuff
 alias ..="cd .."
 
 # gcc stuff
@@ -35,8 +38,8 @@ alias grec="grep --color -n"
 
 # useful shortcuts
 alias scrots="scrot --delay 5 -c -q 100"
-alias uppic="scrot -q 100 -s pic.png && convert -quality 100 pic.png pic.jpg && fb pic.jpg && rm pic.png pic.jpg"
-alias uppic2="scrot -q 100 pic.jpg && fb pic.jpg && rm pic.jpg"
+alias uppic="scrot -q 100 -s /tmp/pic.png && convert -quality 100 /tmp/pic.png /tmp/pic.jpg && fb /tmp/pic.jpg && rm /tmp/pic.png /tmp/pic.jpg"
+alias uppic2="scrot -q 100 /tmp/pic.jpg && fb /tmp/pic.jpg && rm /tmp/pic.jpg"
 alias upbuf="xclip -o | fb"
 
 # ssh/mosh stuff
@@ -113,6 +116,3 @@ else
     export PATH=$PATH:/home/heinz/scripts
     export PATH=$PATH:/home/heinz/.gem/ruby/2.1.0/bin
 fi
-
-#task
-
