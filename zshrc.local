@@ -100,10 +100,10 @@ precmd() {
     # actual prompt
     setopt PROMPT_SUBST
 
-    PROMPT="${vcs_info_msg_0_}❯ "
+    PROMPT="${vcs_info_msg_0_}$PROMPT"
 }
 
-if [[ -n "$SSH_CLIENT" ]]; then
+if [[ -n $SSH_CLIENT ]]; then
     # Connected per ssh
     PROMPT="$p_yellow%n$p_resetc.$p_red%m$p_resetc❯ "
     RPROMPT="$p_yellow%~$p_resetc"
