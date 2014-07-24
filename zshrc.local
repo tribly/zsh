@@ -95,13 +95,14 @@ function +vi-git-untracked(){
         hook_com[unstaged]+='%B%F{red}*%f%b'
     fi
 }
-precmd() {
-    vcs_info
-    # actual prompt
-    setopt PROMPT_SUBST
 
-    PROMPT="${vcs_info_msg_0_}$PROMPT"
-}
+#precmd() {
+    #vcs_info
+    ## actual prompt
+    #setopt PROMPT_SUBST
+
+    #PROMPT="${vcs_info_msg_0_}$PROMPT"
+#}
 
 if [[ -n $SSH_CLIENT ]]; then
     # Connected per ssh
