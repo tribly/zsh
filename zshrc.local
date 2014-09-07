@@ -65,6 +65,8 @@ alias aria='aria2c --truncate-console-readout --summary-interval=0 --disable-ipv
 alias du='du -h'
 alias df='df -h'
 
+alias hc='herbstclient'
+
 # vim keybindings
 export KEYTIMEOUT=1
 bindkey -v
