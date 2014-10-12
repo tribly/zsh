@@ -59,11 +59,12 @@ alias gm='git commit -m'
 alias v='vim'
 
 # other stuff
-#alias chromium='nice -20 chromium --disk-cache-dir=/tmp --memory-model=low'
+alias chromium='nice -20 chromium --disk-cache-dir=/tmp/cache'
 alias rsync='eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/tribly) && rsync --human-readable -a --progress --partial'
 alias aria='aria2c --truncate-console-readout --summary-interval=0 --disable-ipv6=true'
 alias du='du -h'
 alias df='df -h'
+alias py='python'
 
 alias hc='herbstclient'
 
