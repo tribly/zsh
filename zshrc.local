@@ -16,7 +16,7 @@ p_resetc="%{$reset_color%}"
 
 
 
-zstyle ':completion:*:vim:*' ignored-patterns '*.(class|o|exe)'
+zstyle ':completion:*:vim:*' ignored-patterns '*.(class|o|exe|pdf)'
 # Overrides defaults
 zstyle ':completion:*:descriptions'     format $'%{\e[0;33m%}completing %B%d%b%{\e[0m%}'
 zstyle ':completion:*'                  menu select=2
@@ -64,7 +64,7 @@ alias rsync='eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/trib
 alias aria='aria2c --truncate-console-readout --summary-interval=0 --disable-ipv6=true'
 alias du='du -h'
 alias df='df -h'
-alias py='python'
+alias py='ipython'
 
 alias hc='herbstclient'
 
