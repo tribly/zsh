@@ -66,8 +66,6 @@ alias du='du -h'
 alias df='df -h'
 alias py='ipython'
 
-alias hc='herbstclient'
-
 # vim keybindings
 export KEYTIMEOUT=1
 bindkey -v
