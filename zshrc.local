@@ -65,7 +65,6 @@ alias aria='aria2c --truncate-console-readout --summary-interval=0 --disable-ipv
 alias du='du -h'
 alias df='df -h'
 alias py='ipython'
-alias lm='latexmk -pdf -shell-escape'
 
 # vim keybindings
 export KEYTIMEOUT=1
