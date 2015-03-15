@@ -2,6 +2,8 @@ if [[ "$TERM" == "xterm" ]]; then
     export TERM=xterm-256color
 fi
 
+fpath=(~/.zsh_completion $fpath)
+
 BROWSER=chromium
 
 prompt off
