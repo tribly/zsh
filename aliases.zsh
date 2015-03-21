@@ -1,6 +1,7 @@
 # ls stuff
 alias ls='ls -v --color=auto'
 alias lh='ls -lh'
+alias la='ls -lha'
 
 # cd stuff
 alias ..="cd .."
