@@ -1,6 +1,7 @@
 # ls stuff
 alias ls='ls -v --color=auto'
 alias lh='ls -lh'
+alias ll='ls -l'
 alias la='ls -lha'
 
 # cd stuff
@@ -20,11 +21,9 @@ alias uppic="scrot -q 100 -s /tmp/pic.png && convert -quality 100 /tmp/pic.png /
 alias uppic2="scrot -q 100 /tmp/pic.jpg && fb /tmp/pic.jpg && rm /tmp/pic.jpg"
 alias upbuf="xclip -o | fb"
 alias lfb='printf "http://paste.tribly.de/$(fb -H | tail -n3 | head -n1 | cut -d " " -f1)/" | xclip; xclip -o; echo'
-
-# ssh/mosh stuff
-alias ssh='eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/tribly) && ssh'
-alias mu='eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/tribly) && mosh -p 61705 uberspace'
-alias mn='eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/tribly) && mosh -p 13570 netcup'
+alias syu='sudo pacman -Syu'
+alias syy='sudo pacman -Syy'
+alias ss='pacman -Ss'
 
 # monitor controlls
 alias rightoff='xrandr --output VGA-0 --off'

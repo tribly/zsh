@@ -7,3 +7,4 @@ source ~/.zsh/functions.zsh
 source ~/.zsh/history.zsh
 source ~/.zsh/setopt.zsh
 source ~/.zsh/shell_prompt.sh
+source ~/.zsh/private.zsh
