@@ -1,3 +1,4 @@
+bindkey -v
 bindkey '^[[Z' reverse-menu-complete
 
 bindkey '^R' history-incremental-search-backward

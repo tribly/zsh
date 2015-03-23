@@ -21,7 +21,7 @@ alias uppic="scrot -q 100 -s /tmp/pic.png && convert -quality 100 /tmp/pic.png /
 alias uppic2="scrot -q 100 /tmp/pic.jpg && fb /tmp/pic.jpg && rm /tmp/pic.jpg"
 alias upbuf="xclip -o | fb"
 alias lfb='printf "http://paste.tribly.de/$(fb -H | tail -n3 | head -n1 | cut -d " " -f1)/" | xclip; xclip -o; echo'
-alias syu='sudo pacman -Syu'
+alias syu='sudo pacman -Syu && pkill -RTMIN+13 i3blocks'
 alias syy='sudo pacman -Syy'
 alias ss='pacman -Ss'
 
