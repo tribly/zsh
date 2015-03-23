@@ -24,6 +24,7 @@ alias lfb='printf "http://paste.tribly.de/$(fb -H | tail -n3 | head -n1 | cut -d
 alias syu='sudo pacman -Syu && pkill -RTMIN+13 i3blocks'
 alias syy='sudo pacman -Syy'
 alias ss='pacman -Ss'
+alias ww='whatwhen'
 
 # monitor controlls
 alias rightoff='xrandr --output VGA-0 --off'
