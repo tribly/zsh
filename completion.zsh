@@ -1,6 +1,8 @@
 autoload -U compinit && compinit
 zmodload -i zsh/complist
 
+bindkey '^[[Z' reverse-menu-complete
+
 zstyle ':completion:*:vim:*' ignored-patterns '*.(class|o|exe|pdf)'
 
 # allow one error for every three characters typed in approximate completer
