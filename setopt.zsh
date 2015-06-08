@@ -54,3 +54,6 @@ setopt noglobdots
 
 # use zsh style word splitting
 setopt noshwordsplit
+
+# enable dir-stack
+setopt auto_cd auto_pushd
