@@ -35,6 +35,7 @@ alias g='eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/tribly) 
 alias ga='git add -A .'
 alias gc='git commit -m'
 alias gs='git status'
+alias go='git checkout'
 
 # vim stuff
 alias v='vim'
