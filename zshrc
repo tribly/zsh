@@ -9,3 +9,4 @@ source ~/.zsh/setopt.zsh
 source ~/.zsh/shell_prompt.sh
 source ~/.zsh/private.zsh
 source ~/.zsh/bindkey.zsh
+
