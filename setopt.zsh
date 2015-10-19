@@ -56,4 +56,4 @@ setopt noglobdots
 setopt noshwordsplit
 
 # enable dir-stack
-setopt auto_cd auto_pushd
+setopt autopushd pushdminus pushdsilent pushdtohome
