@@ -54,4 +54,7 @@ alias pacaur='pacaur --domain aur4.archlinux.org'
 alias feh='feh -P --scale-down -A ";fb %f"'
 alias cs='pacmd set-sink-port alsa_output.pci-0000_00_1b.0.analog-stereo analog-output-lineout'
 
+# mounting
+alias udm='udisksctl mount -b'
+alias udu='udisksctl unmount -b'
 
