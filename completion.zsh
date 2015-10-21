@@ -1,7 +1,7 @@
 autoload -U compinit && compinit
 zmodload -i zsh/complist
 
-zstyle ':completion:*:vim:*' ignored-patterns '*.(class|o|exe|pdf)'
+zstyle ':completion:*:vim:*' ignored-patterns '*.(aux|dvi|fls|toc|class|o|exe|pdf)'
 
 # allow one error for every three characters typed in approximate completer
 zstyle ':completion:*:approximate:'    max-errors 'reply=( $((($#PREFIX+$#SUFFIX)/3 )) numeric )'
