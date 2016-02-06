@@ -50,7 +50,7 @@ alias aria='aria2c --truncate-console-readout --summary-interval=0 --disable-ipv
 alias du='du -h'
 alias df='df -h'
 alias py='ipython'
-alias pacaur='pacaur --domain aur4.archlinux.org'
+alias pacaur='pacaur'
 alias feh='feh -P --scale-down -A ";fb %f"'
 alias cs='pacmd set-sink-port alsa_output.pci-0000_00_1b.0.analog-stereo analog-output-lineout'
 
