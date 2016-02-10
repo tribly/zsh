@@ -57,3 +57,6 @@ setopt noshwordsplit
 
 # enable dir-stack
 setopt autopushd pushdminus pushdsilent pushdtohome
+
+## Remove duplicate entries
+setopt pushdignoredups

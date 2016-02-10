@@ -4,7 +4,7 @@ source ~/.zsh/exports.zsh
 source ~/.zsh/aliases.zsh
 source ~/.zsh/completion.zsh
 source ~/.zsh/functions.zsh
-source ~/.zsh/history.zsh
+source ~/.zsh/misc.zsh
 source ~/.zsh/setopt.zsh
 source ~/.zsh/shell_prompt.sh
 source ~/.zsh/private.zsh
