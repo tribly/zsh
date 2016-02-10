@@ -6,7 +6,7 @@ HISTFILE=~/.zsh_history
 # Dirstack stuff
 DIRSTACKSIZE=20
 
-DIRSTACKFILE="$HOME/.cache/zsh/dirs"
+DIRSTACKFILE="$HOME/.cache/zsh_dirs"
 if [[ -f $DIRSTACKFILE ]] && [[ $#dirstack -eq 0 ]]; then
   dirstack=( ${(f)"$(< $DIRSTACKFILE)"} )
   [[ -d $dirstack[1] ]]
