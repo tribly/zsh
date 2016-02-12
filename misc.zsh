@@ -4,7 +4,7 @@ SAVEHIST=9000
 HISTFILE=~/.zsh_history
 
 # Dirstack stuff
-DIRSTACKSIZE=20
+DIRSTACKSIZE=50
 
 DIRSTACKFILE="$HOME/.zsh/dirstack"
 if [[ -f $DIRSTACKFILE ]] && [[ $#dirstack -eq 0 ]]; then
