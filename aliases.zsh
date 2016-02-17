@@ -1,5 +1,5 @@
 # ls stuff
-alias ls='ls -v --color=auto'
+alias ls='ls -N --color=auto'
 alias lh='ls -lh'
 alias ll='ls -l'
 alias la='ls -lha'
@@ -57,4 +57,3 @@ alias cs='pacmd set-sink-port alsa_output.pci-0000_00_1b.0.analog-stereo analog-
 # mounting
 alias udm='udisksctl mount -b'
 alias udu='udisksctl unmount -b'
-
