@@ -6,7 +6,7 @@ source ~/.zsh/completion.zsh
 source ~/.zsh/functions.zsh
 source ~/.zsh/misc.zsh
 source ~/.zsh/setopt.zsh
-source ~/.zsh/shell_prompt.sh
 source ~/.zsh/private.zsh
 source ~/.zsh/bindkey.zsh
+source ~/.zsh/powerline.zsh
 
