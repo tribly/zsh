@@ -9,4 +9,3 @@ source ~/.zsh/setopt.zsh
 source ~/.zsh/private.zsh
 source ~/.zsh/bindkey.zsh
 source ~/.zsh/powerline.zsh
-
