@@ -43,6 +43,11 @@ alias go='git checkout'
 # vim stuff
 alias v='vim'
 
+# taskwarrior
+alias t='task'
+alias ta='task add'
+alias tn='task next'
+
 # other stuff
 alias chrom='nice -20 chromium --disk-cache-dir=/tmp/cache --user-agent="Chrome"'
 alias rsync2='rsync --human-readable -a --info=progress2 --partial'
