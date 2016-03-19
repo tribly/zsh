@@ -83,6 +83,7 @@ zstyle ':completion:*:sudo:*' command-path /usr/local/sbin \
 zstyle ':completion:*:hosts' hosts $hosts
 
 # Caching for long ass stuff
+zstyle ':completion:*' accept-exact '*(N)'
 zstyle ':completion:*' use-cache on
 zstyle ':completion:*' cache-path ~/.zsh/cache
 
