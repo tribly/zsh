@@ -28,8 +28,8 @@ alias ss='pacman -Ss'
 alias ww='whatwhen'
 
 # monitor controlls
-alias rightoff='xrandr --output VGA-0 --off'
-alias righton='xrandr --output VGA-0 --mode 1680x1050 --right-of DVI-I-1'
+alias rightoff='xrandr --output DVI-D-0 --off'
+alias righton='xrandr --output DVI-D-0 --mode 1680x1050 --right-of DVI-I-1'
 
 # git stuff
 #alias g='eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/tribly) && git'
