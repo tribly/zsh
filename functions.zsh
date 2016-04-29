@@ -9,6 +9,10 @@ cd() {
     fi
 }
 
+lfb() {
+    echo "http://p.pixek.de/$(fb -H | tail -n3 | head -n1 | cut -d " " -f1)/" | xclip; xclip -o; echo
+}
+
 # Find history events by search pattern and list them by date.
 whatwhen()  {
     emulate -L zsh
