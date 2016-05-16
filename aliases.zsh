@@ -28,7 +28,6 @@ alias rightoff="xrandr --output DVI-D-0 --off"
 alias righton="xrandr --output DVI-D-0 --mode 1680x1050 --right-of DVI-I-1"
 
 # git stuff
-#alias g="eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/tribly) && git"
 alias g="git"
 alias ga="git add -A ."
 alias gc="git commit -m"
@@ -44,13 +43,11 @@ alias ta="task add"
 alias tn="task next"
 
 # other stuff
-#alias chrom="nice -20 chromium --user-agent="Chrome""
 alias rsync2="rsync --human-readable -a --info=progress2 --partial"
 alias aria="aria2c --truncate-console-readout --summary-interval=0 --disable-ipv6=true"
 alias du="du -h"
 alias df="df -h"
 alias py="ipython"
-alias pacaur="pacaur"
 alias feh="feh -P --scale-down -A ';fb %f'"
 alias cs="pacmd set-sink-port alsa_output.pci-0000_00_1b.0.analog-stereo analog-output-lineout"
 
