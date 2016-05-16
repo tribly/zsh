@@ -16,10 +16,7 @@ alias grep="grep --color"
 alias grec="grep --color -n"
 
 # useful shortcuts
-alias scrots="scrot --delay 5 -c -q 100"
-alias editpic="scrot -q 100 -s /tmp/pic.png && gimp /tmp/pic.png"
-alias uppic="scrot -q 100 -s /tmp/pic.png && convert -quality 100 /tmp/pic.png /tmp/pic.jpg && fb /tmp/pic.jpg && rm /tmp/pic.png /tmp/pic.jpg"
-alias uppic2="scrot -q 100 /tmp/pic.jpg && fb /tmp/pic.jpg && rm /tmp/pic.jpg"
+alias uppic="maim --format=png -s /tmp/pic.png; fb /tmp/pic.png; rm /tmp/pic.png"
 alias upbuf="xclip -o | fb"
 alias syu="sudo pacman -Syu && pkill -RTMIN+13 i3blocks"
 alias syy="sudo pacman -Syy"
