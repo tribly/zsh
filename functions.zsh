@@ -9,6 +9,11 @@ cd() {
     fi
 }
 
+downer() {
+    wget -cr --https-only --secure-protocol=PFS --limit-rate=1m $1
+    notify-send "download finished"
+}
+
 lfb() {
     echo "https://p.pixek.de/$(fb -H | tail -n3 | head -n1 | cut -d " " -f1)/" | xclip; xclip -o
 }
