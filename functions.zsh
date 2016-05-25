@@ -10,7 +10,9 @@ cd() {
 }
 
 downer() {
-    wget -cr --https-only --secure-protocol=PFS --limit-rate=1m $1
+    for link in "$@"; do
+        wget -cr --https-only --secure-protocol=PFS --limit-rate=1m "$link"
+    done
     notify-send "download finished"
 }
 
