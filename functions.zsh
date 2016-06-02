@@ -13,6 +13,10 @@ downer() {
     for link in "$@"; do
         wget -cr --https-only --secure-protocol=PFS --limit-rate=1m "$link"
     done
+
+    for x in "$@"; do
+        basename "$x" | sed 's/%20/ /g; s/%5b/\[/g; s/%5d/\]/g; s/%28/\(/g; s/%29/\)/g'
+    done
     notify-send "download finished"
 }
 
