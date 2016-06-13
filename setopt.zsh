@@ -61,5 +61,5 @@ setopt autopushd pushdminus pushdsilent pushdtohome
 ## Remove duplicate entries
 setopt pushdignoredups
 
-## Disable flowcontroll
-unsetopt flowcontrol
+# Disable flowcontrol
+stty -ixon
