@@ -11,7 +11,7 @@ cd() {
 
 downer() {
     for link in "$@"; do
-        wget -cr --https-only --secure-protocol=PFS --limit-rate=1m "$link"
+        wget -cr --https-only --secure-protocol=PFS --limit-rate=1.5m "$link"
         notify-send $(basename $link | sed 's/%20/ /g; s/%5b/\[/g; s/%5d/\]/g; s/%28/\(/g; s/%29/\)/g')
     done
 
