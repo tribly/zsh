@@ -16,4 +16,11 @@ precmd() {
 
 setopt prompt_subst
 
-PROMPT='%B%K{33} %n %k${vcs_info_msg_0_}%K{4} %2~ %k%b '
+local machine
+if [ -n "$SSH_CLIENT" ];then
+    machine='%K{34} @'$HOST' %k'
+else
+    machine=''
+fi
+
+PROMPT='%B%K{33} %n %k$machine${vcs_info_msg_0_}%K{4} %2~ %k%b '
