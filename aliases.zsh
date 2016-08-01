@@ -43,7 +43,7 @@ alias ta="task add"
 alias tn="task next"
 
 # other stuff
-alias rsync2="rsync --human-readable -a --info=progress2 --partial"
+alias rs="rsync --human-readable -a --info=progress2 --partial"
 alias aria="aria2c --truncate-console-readout --summary-interval=0 --disable-ipv6=true"
 alias du="du -h"
 alias df="df -h"
