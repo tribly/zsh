@@ -16,8 +16,8 @@ alias grep="grep --color"
 alias grec="grep --color -n"
 
 # useful shortcuts
-alias uppic="maim --format=png -s /tmp/pic.png; fb /tmp/pic.png; rm /tmp/pic.png"
-alias upbuf="xclip -o | fb"
+#alias uppic="maim --format=png -s /tmp/pic.png; fb /tmp/pic.png; rm /tmp/pic.png"
+#alias upbuf="xclip -o | fb"
 alias syu="sudo pacman -Syu && pkill -RTMIN+13 i3blocks"
 alias syy="sudo pacman -Syy"
 alias ss="pacman -Ss"
