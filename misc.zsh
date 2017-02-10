@@ -1,6 +1,6 @@
 # History stuff
-HISTSIZE=10000
-SAVEHIST=9000
+HISTSIZE=1000000
+SAVEHIST=9000000
 HISTFILE=~/.zsh_history
 
 # Dirstack stuff

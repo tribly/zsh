@@ -40,7 +40,7 @@ downer() {
 }
 
 lfb() {
-    echo "https://p.pixek.de/$(fb -H | tail -n -6 | head -n 1 | cut -d " " -f2)/" | xclip; xclip -o
+    echo "https://p.tribly.de/$(fb -H | tail -n -6 | head -n 1 | cut -d " " -f2)/" | xclip; xclip -o
 }
 
 # Find history events by search pattern and list them by date.
