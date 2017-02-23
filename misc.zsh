@@ -1,3 +1,6 @@
+# Report the time
+REPORTTIME=5
+
 # History stuff
 HISTSIZE=1000000
 SAVEHIST=9000000
